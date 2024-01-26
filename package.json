@@ -1,0 +1,21 @@
+{
+  "name": "pcf-creator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module", 
+  "scripts": {
+    "react-start": "cd my-react-app && npm start",
+    "electron-start": "electron .",
+    "start": "concurrently \"npm run react-start\" \"npm run electron-start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "electron": "^28.2.0",
+    "electron-is-dev": "^3.0.1"
+  }
+  
+}
