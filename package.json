@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "react-start": "cd my-react-app && npm start",
     "electron-start": "electron .",
@@ -17,5 +17,4 @@
     "electron": "^28.2.0",
     "electron-is-dev": "^3.0.1"
   }
-  
 }
